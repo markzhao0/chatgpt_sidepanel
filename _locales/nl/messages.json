@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT in Zijpaneel"
+  },
+  "ext_description": {
+    "message": "Toegang tot ChatGPT direct in Chrome's zijpaneel met naadloze inlog en chatgeschiedenis synchronisatie."
+  },
+  "try_exporter": {
+    "message": "Probeer ChatGPT Exporter - ChatGPT naar PDF, MD en meer"
+  },
+  "thanks": {
+    "message": "Gemaakt met ❤️"
+  },
+  "feedback": {
+    "message": "Feedback"
+  }
+}

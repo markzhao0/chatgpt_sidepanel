@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT dans le Panneau Latéral"
+  },
+  "ext_description": {
+    "message": "Accédez à ChatGPT directement dans le panneau latéral de Chrome avec une connexion transparente et une synchronisation de l'historique des conversations."
+  },
+  "try_exporter": {
+    "message": "Essayez ChatGPT Exporter - ChatGPT vers PDF, MD et plus"
+  },
+  "thanks": {
+    "message": "Fait avec ❤️"
+  },
+  "feedback": {
+    "message": "Retour d'information"
+  }
+}

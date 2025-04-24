@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "側邊欄中的ChatGPT"
+  },
+  "ext_description": {
+    "message": "直接在Chrome側邊欄中存取ChatGPT，支援無縫登入和聊天記錄同步。"
+  },
+  "try_exporter": {
+    "message": "試試ChatGPT Exporter - 將ChatGPT轉換為PDF、MD等格式"
+  },
+  "thanks": {
+    "message": "用❤️製作"
+  },
+  "feedback": {
+    "message": "意見回饋"
+  }
+}

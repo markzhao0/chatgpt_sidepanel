@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT in Side Panel"
+  },
+  "ext_description": {
+    "message": "Access ChatGPT directly in Chrome's side panel with seamless login and chat history synchronization."
+  },
+  "try_exporter": {
+    "message": "Try ChatGPT Exporter - ChatGPT to PDF, MD, and more"
+  },
+  "thanks": {
+    "message": "Made with ❤️"
+  },
+  "feedback": {
+    "message": "Feedback"
+  }
+}

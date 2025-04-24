@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "サイドパネルのChatGPT"
+  },
+  "ext_description": {
+    "message": "Chromeのサイドパネルで直接ChatGPTにアクセス。シームレスなログインとチャット履歴の同期が可能。"
+  },
+  "try_exporter": {
+    "message": "ChatGPT Exporterを試す - PDF、MDなどへの変換"
+  },
+  "thanks": {
+    "message": "❤️で作られました"
+  },
+  "feedback": {
+    "message": "フィードバック"
+  }
+}

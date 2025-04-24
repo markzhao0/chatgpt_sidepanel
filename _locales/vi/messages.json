@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT trong Khung Bên"
+  },
+  "ext_description": {
+    "message": "Truy cập ChatGPT trực tiếp trong khung bên của Chrome với đăng nhập liền mạch và đồng bộ hóa lịch sử trò chuyện."
+  },
+  "try_exporter": {
+    "message": "Thử ChatGPT Exporter - ChatGPT sang PDF, MD và hơn thế nữa"
+  },
+  "thanks": {
+    "message": "Được tạo bằng ❤️"
+  },
+  "feedback": {
+    "message": "Phản hồi"
+  }
+}

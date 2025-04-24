@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "사이드 패널의 ChatGPT"
+  },
+  "ext_description": {
+    "message": "Chrome의 사이드 패널에서 직접 ChatGPT에 접근하세요. 원활한 로그인과 채팅 기록 동기화가 가능합니다."
+  },
+  "try_exporter": {
+    "message": "ChatGPT Exporter 사용해보기 - PDF, MD 등으로 변환"
+  },
+  "thanks": {
+    "message": "❤️로 만들었습니다"
+  },
+  "feedback": {
+    "message": "피드백"
+  }
+}

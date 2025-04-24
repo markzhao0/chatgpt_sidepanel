@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT en Panel Lateral"
+  },
+  "ext_description": {
+    "message": "Accede a ChatGPT directamente en el panel lateral de Chrome con inicio de sesión sin problemas y sincronización del historial de chat."
+  },
+  "try_exporter": {
+    "message": "Prueba ChatGPT Exporter - ChatGPT a PDF, MD y más"
+  },
+  "thanks": {
+    "message": "Hecho con ❤️"
+  },
+  "feedback": {
+    "message": "Comentarios"
+  }
+}

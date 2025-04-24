@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ChatGPT in Side Panel</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: calc(100% - 32px);
+        border: none;
+      }
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, sans-serif;
+      }
+      .spinner {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #10a37f;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 32px;
+        background: #f7f7f8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        font-size: 10px;
+        line-height: 1;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, sans-serif;
+        border-top: 1px solid #e5e5e5;
+        z-index: 1000;
+        padding: 1px 0;
+      }
+      .footer-row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        height: 14px;
+      }
+      .footer a {
+        color: #10a37f;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .footer a:hover {
+        color: #0e8e6d;
+        text-decoration: underline;
+      }
+      .footer .heart {
+        color: #ff4646;
+      }
+      .footer .exporter-link {
+        background: #10a37f15;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+      .footer .exporter-link:hover {
+        background: #10a37f25;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>Loading ChatGPT...</p>
+    </div>
+    <iframe
+      src="https://chatgpt.com"
+      allow="clipboard-write; camera; microphone"
+    ></iframe>
+    <div class="footer">
+      <div class="footer-row">
+        <a href="https://www.buymeacoffee.com/markzhao1" target="_blank"
+          >Buy me a coffee &#9749;</a
+        >
+        <span id="thanks"></span>
+        <a
+          href="https://forms.gle/aptHz6RSLCq9D17B7"
+          target="_blank"
+          id="feedback-link"
+        ></a>
+      </div>
+      <div class="footer-row">
+        <a
+          href="https://www.chatgptexporter.com"
+          target="_blank"
+          class="exporter-link"
+          id="exporter-link"
+        ></a>
+      </div>
+    </div>
+    <script src="panel.js"></script>
+  </body>
+</html>

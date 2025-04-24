@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "侧边栏中的ChatGPT"
+  },
+  "ext_description": {
+    "message": "直接在Chrome侧边栏中访问ChatGPT，支持无缝登录和聊天记录同步。"
+  },
+  "try_exporter": {
+    "message": "试试ChatGPT Exporter - 将ChatGPT转换为PDF、MD等格式"
+  },
+  "thanks": {
+    "message": "用❤️制作"
+  },
+  "feedback": {
+    "message": "反馈"
+  }
+}

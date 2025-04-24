@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT в Боковой Панели"
+  },
+  "ext_description": {
+    "message": "Доступ к ChatGPT прямо в боковой панели Chrome с бесшовным входом и синхронизацией истории чатов."
+  },
+  "try_exporter": {
+    "message": "Попробуйте ChatGPT Exporter - ChatGPT в PDF, MD и другие форматы"
+  },
+  "thanks": {
+    "message": "Сделано с ❤️"
+  },
+  "feedback": {
+    "message": "Обратная связь"
+  }
+}

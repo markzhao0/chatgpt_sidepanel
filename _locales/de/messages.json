@@ -1,0 +1,17 @@
+{
+  "ext_name": {
+    "message": "ChatGPT in Seitenleiste"
+  },
+  "ext_description": {
+    "message": "Greifen Sie direkt in Chrome's Seitenleiste auf ChatGPT zu, mit nahtloser Anmeldung und Chat-Verlauf-Synchronisation."
+  },
+  "try_exporter": {
+    "message": "Probieren Sie ChatGPT Exporter - ChatGPT zu PDF, MD und mehr"
+  },
+  "thanks": {
+    "message": "Mit ❤️ gemacht"
+  },
+  "feedback": {
+    "message": "Feedback"
+  }
+}
